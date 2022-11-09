@@ -1,0 +1,110 @@
+pwd
+ls
+sudo dnf install httpd 
+sudo dnf module list php
+sudo dnf module reset php
+dnf module enable php:8.0
+sudo dnf module enable php:8.0
+sudo dnf module enable php:8.1
+sudo wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
+sudo dnf install wget
+sudo wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
+sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm#
+sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm
+sudo dnf update
+sudo dnf  install mysql-server
+sudo systemctl start mysqld
+sudo systemctl status mysqld
+sudo systemctl start httpd
+sudo systemctl status httpd
+sudo systemctl enable --now mysqld
+mysql_secure_installation
+sudo dnf module enable php:8.1
+sudo dnf module list php
+cd /var/www
+ls
+cd html
+sudo tar -xvzf latest.tar.gz -C /var/www/html
+ls
+cd /home
+ls
+sudo tar -xvzf latest.tar.gz -C /var/www/html
+sudo cd /tmp && wget http://wordpress.org/latest.tar.gz
+ls
+sudo cd /tmp && wget http://wordpress.org/latest.tar.gz
+cd /var/www/html
+ls
+pwd
+cd /tmp && wget http://wordpress.org/latest.tar.gz
+ls
+sudo tar -xvzf latest.tar.gz -C /var/www/html
+ls
+cd /var/www
+ls
+cd html
+ls
+cd /var/www/html/wordpress
+ls
+sudo chown -R apache:apache /var/www/html/wordpress
+sudo chmod -R 775 /var/www/html/wordpress
+sudo dnf install policycoreutils-python-utils
+semanage fcontext -a -t httpd_sys_rw_content_t "/var/www/html/wordpress(/.*)?"
+sudo semanage fcontext -a -t httpd_sys_rw_content_t "/var/www/html/wordpress(/.*)?"
+sudo restorecon -Rv /var/www/html/wordpress
+sudo vi /etc/httpd/conf/httpd.conf
+systemctl restart httpd
+sudo systemctl restart httpd
+mysql -u root -p
+sudo systemctl restart httpd
+sudo systemctl restart mysqld
+sudo systemctl status mysqld
+sudo systemctl status httpd
+curl -4 icanhazip.com
+sudo vi /etc/httpd/conf/httpd.conf
+sudo systemctl reload httpd
+sudo systemctl restart httpd
+sudo systemctl start httpd
+sudo systemctl status httpd
+pwd
+ls
+pwd
+ls
+ls -la
+sudo semanage fcontext -a -t httpd_sys_rw_content_t "/var/www/html/wordpress(/.*)?"
+vi /etc/httpd/conf/httpd.conf
+sudo vi /etc/httpd/conf/httpd.conf
+sudo systemctl restart httpd
+sudo dnf  install dnf-utils
+sudo dnf module list php
+sudo dnf module reset php
+sudo dnf module enable php:8.1
+sudo systemctl restart httpd
+cd /var/www
+ls -la
+cd chown -R apache:apache /var/www/html/wordpress
+sudo chown -R apache:apache /var/www/html/wordpress
+sudo chmod -R 775 /var/www/html/wordpress
+ls -la
+cd /
+sudo chown -R apache:apache /var/www/html/wordpress
+sudo chmod -R 775 /var/www/html/wordpress
+cd var
+cd www
+ls -la
+cd html
+ls -la
+sudo systemctl restart httpd
+cd /var/www/html
+ls
+sudo dnf install httpd php-gd php-soap php-intl php-mysqlnd php-pdo php-pecl-zip php-fpm php-opcache php-curl php-zip 
+sudo systemctl restart httpd
+pwd
+ls
+cd /var/www/html
+ls
+sudo systemctl status httpd
+sudo systemctl start httpd
+sudo systemctl status httpd
+sudo systemctl status mysqld
+curl -4 icanhazip.com
+cd /var/www/html
